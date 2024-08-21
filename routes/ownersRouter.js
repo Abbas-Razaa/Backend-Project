@@ -25,4 +25,8 @@ if (process.env.NODE_ENV === 'development') {
     });
 }
 
+router.get('/adminPanel', function(req, res) {
+    res.render('createproducts');
+});
+
 module.exports = router;
